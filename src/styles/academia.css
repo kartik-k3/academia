@@ -1,0 +1,134 @@
+body#weight {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+}
+p{
+    color: white;
+}
+body#weight div.paralax{
+    background-image : url('https://preview.colorlib.com/theme/academia/images/bg_1.jpg.webp');
+    height: fit-content;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #1eb2a6;
+}
+header{
+    padding: 25px 115px 10px 115px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btnlist button{
+    background-color: #cbe3ea;
+    border: none;
+    margin-left: 7px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.btnlist button span{
+    color: #1eb2a6;
+}
+header :nth-child(2) div{
+    margin-left: 60px;
+}
+body#weight nav{
+    height: 71px;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 0;
+}
+nav div button{
+    background-color: transparent;
+    border: none;
+    padding: 25px;
+    font-size: 16px;
+    color: white;
+    margin: 0px;
+    height: 71px;
+}
+nav:nth-child(2)::before{
+    content: '';
+    width: 60px;
+    height: 71px;
+    background-color: #1eb2a6;
+    position: relative;
+    left:1100px;
+    transform: skewX(-25deg);
+}
+#diffbtn button{
+    padding: 13px;
+    border: none;
+}
+.content{
+    opacity: 0;
+    transform: translateY(60px);
+    transition: 1300ms;
+}
+.quick{
+    opacity: 0;
+    transform: translateY(70px);
+    transition: 1300ms;
+}
+.counter{
+    opacity: 0;
+    transform: translateY(25px);
+    transition: 1000ms;
+}
+div.card span{
+    color: #1eb2a6;
+    font-size: 45px;
+    margin-right: 20px;
+}
+body#weight div.card{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+div.card p{
+    font-size: 16px;
+    font-weight: 100;
+    color: gray;
+}
+div.card:hover{
+    background-color: #89d4d1;
+    color: white;
+}
+div.statcount{
+    width:100%;
+    height:256px;
+    background-image:url('https://preview.colorlib.com/theme/academia/images/bg_3.jpg.webp') ; background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    color: white;
+}
+div.statcount div{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+div.statcount span{
+    font-size: 40px;
+}
+.carousel button{
+    border: 1px solid #1eb2a6;
+    color: #1eb2a6;
+}
+.carouselcontainer{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+.carouselcontainer .card{
+    margin: 20px;
+}
